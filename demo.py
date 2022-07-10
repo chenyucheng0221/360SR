@@ -11,7 +11,6 @@ from test import batched_predict
 
 
 if __name__ == '__main__':
-    print("x")
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', default='input.png')
     parser.add_argument('--model')
